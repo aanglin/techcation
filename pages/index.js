@@ -3,6 +3,7 @@ import Activities from "../components/Activities";
 import Navbar from "../components/NavBar";
 import TopBar from "../components/TopBar";
 import VacBar from "../components/VacBar";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <VacBar />
       <Activities />
+      <Slider />
     </div>
   );
 }
