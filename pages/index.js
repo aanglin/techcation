@@ -6,6 +6,7 @@ import TopBar from "../components/TopBar";
 import VacBar from "../components/VacBar";
 import Slider from "../components/Slider";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Slider />
       <Availability />
       <Contact />
+      <Footer />
     </div>
   );
 }
