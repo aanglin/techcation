@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Activities from "../components/Activities";
+import Availability from "../components/Availability";
 import Navbar from "../components/NavBar";
 import TopBar from "../components/TopBar";
 import VacBar from "../components/VacBar";
 import Slider from "../components/Slider";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <VacBar />
       <Activities />
       <Slider />
+      <Availability />
+      <Contact />
     </div>
   );
 }

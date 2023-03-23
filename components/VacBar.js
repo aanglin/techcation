@@ -4,7 +4,7 @@ import Background from "../public/assets/background.jpg";
 function VacBar() {
   return (
     <div className="w-full h-[80vh]">
-      <Image className="w-full h-full object-cover" src={Background} />
+      <Image className="w-full h-full object-cover" src={Background} alt="/" />
       <div className="max-w-[1140px] m-auto">
         <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">
           <h1 className="text-6xl py-4">Vacation Like A Tech</h1>
