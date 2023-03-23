@@ -31,7 +31,7 @@ function Navbar() {
       </div>
       {/* Mobile Menu */}
       <div
-      onClick={handleNav}
+        onClick={handleNav}
         className={
           nav
             ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 h-screen w-full bg-black/90 px-4 py-7 flex flex-col"
