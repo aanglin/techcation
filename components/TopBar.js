@@ -6,10 +6,10 @@ import Phone from '../public/assets/phone.svg'
 
 function TopBar() {
   return (
-    <div className='flex justify-evenly items-center py-2 px-4'>
-        <div className='flex items-center pr-[60rem]'>
+    <div className='flex justify-between items-center px-4 py-2'>
+        <div className='flex items-center'>
         <GiAirplaneDeparture size={70} className='text-blue-700' />
-            <h1 className='pl-6 text-blue-700 text-[40px]'>TechCation</h1>
+            <h1 className='pl-6 text-blue-700 text-[30px]'>TechCation</h1>
         </div>
         <div className='hidden md:flex items-center'>
         <div className='flex items-center p-5'>

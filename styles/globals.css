@@ -18,7 +18,7 @@
     font-family: "Saira Condensed", sans-serif;
   }
   li {
-    @apply p-4 text-sm;
+    @apply p-4 text-[20px];
   }
   button {
     @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white text-xl;
