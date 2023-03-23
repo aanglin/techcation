@@ -26,7 +26,7 @@ function Navbar() {
         </li>
       </ul>
       {/* Mobile Menu Icon */}
-      <div onClick={handleNav} className="sm:hidden z-10">
+      <div onClick={handleNav} className="sm:hidden z-10 pl-2">
         <FaBars size={20} className="mr-4 cursor-pointer " />
       </div>
       {/* Mobile Menu */}

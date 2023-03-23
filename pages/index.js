@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/NavBar'
 import TopBar from '../components/TopBar'
+import VacBar from '../components/VacBar'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
 <TopBar />
 <Navbar />
-      
+  <VacBar />    
     </div>
   )
 }
