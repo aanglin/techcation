@@ -27,7 +27,7 @@ function TopBar() {
             <h2 className='p-2 text-xl text-gray-400'>1-800-123-4567</h2>
         </div>
         </div>
-        <button className='pr-12'>Book A Trip</button>
+        <button>Book A Trip</button>
     </div>
   )
 }
