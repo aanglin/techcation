@@ -6,7 +6,7 @@ const Booking = () => {
       <form className='lg:flex lg:justify-between w-full items-center'>
         <div className='flex flex-col my-2 py-2'>
           <label>Destination</label>
-          <select className='lg:w-[300px] md:w-full border rounded-md p-2'>
+          <select className='lg:w-[300px] md:w-full border border-gray-400 rounded-md p-2'>
             <option>Cancun</option>
             <option>Key West</option>
             <option>Maldives</option>
@@ -16,11 +16,11 @@ const Booking = () => {
         <div className='flex w-full text-gray-400'>
           <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
             <label>Check-In</label>
-            <input className='border rounded-md p-2' type='date' />
+            <input className='border border-gray-400 rounded-md p-2' type='date' />
           </div>
           <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
             <label>Check-Out</label>
-            <input className='border rounded-md p-2' type='date' />
+            <input className='border border-gray-400 rounded-md p-2' type='date' />
           </div>
         </div>
         <div className='flex flex-col my-2 p-2 w-full'>
