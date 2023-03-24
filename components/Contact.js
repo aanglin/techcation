@@ -1,13 +1,16 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Contact = () => {
   return (
     <div id='contact' className='max-w-[1140px] m-auto w-full  p-4 py-16'>
       <h2 className='text-center text-gray-400 text-4xl'>Send us a message</h2>
-      <p className='text-center text-gray-400 py-2 text-3xl'>We're Excited!</p>
+      <p className='text-center text-gray-400 py-2 text-3xl'>We are Excited!</p>
       <div className='grid md:grid-cols-2'>
-        <img
+        <Image
           src='https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80'
+          width={'1140'}
+          height={'500'}
           alt='/'
           className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]'
         />
