@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Deployed Website
-[TechCation](https://foodies2.vercel.app/) <br>
+[TechCation](https://techcation.vercel.app/) <br>
 Initial Deployment Date: March 24, 2023
 
 ## Description
